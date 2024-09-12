@@ -8,10 +8,12 @@ public class ButtonControl : MonoBehaviour
     public Button mathButton;
     public Button closetButton;
     public Button settingButton;
+    public Button settingExitButton;
 
     public PanelControl mathPanelControl;
     public PanelControl closetPanelControl;
     public PanelControl settingPanelControl;
+    public PanelControl settingExitButtonPanelControl;
 
     void Start()
     {
@@ -22,6 +24,7 @@ public class ButtonControl : MonoBehaviour
         mathButton.onClick.AddListener(OnMathButtonClick);
         closetButton.onClick.AddListener(OnClosetButtonClick);
         settingButton.onClick.AddListener(OnSettingButtonClick);
+        settingExitButton.onClick.AddListener(OnSettingButtonClick);
 
     }
     void OnMathButtonClick()

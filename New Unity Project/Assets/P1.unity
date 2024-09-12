@@ -958,9 +958,11 @@ MonoBehaviour:
   mathButton: {fileID: 653451188}
   closetButton: {fileID: 2101128683}
   settingButton: {fileID: 1668796057}
+  settingExitButton: {fileID: 453085151}
   mathPanelControl: {fileID: 1437226448}
   closetPanelControl: {fileID: 414429856}
   settingPanelControl: {fileID: 43873399}
+  settingExitButtonPanelControl: {fileID: 43873399}
 --- !u!1 &884552889
 GameObject:
   m_ObjectHideFlags: 0
