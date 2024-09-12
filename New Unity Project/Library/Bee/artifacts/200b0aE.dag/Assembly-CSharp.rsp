@@ -353,6 +353,7 @@
 "Assets/Scripts/ButtonControl.cs"
 "Assets/Scripts/CoinManage.cs"
 "Assets/Scripts/PanelControl.cs"
+"Assets/Scripts/Settings.cs"
 -langversion:9.0
 /deterministic
 /optimize+
