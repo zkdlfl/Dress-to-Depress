@@ -7,17 +7,21 @@ public class ButtonControl : MonoBehaviour
 {
     public Button mathButton;
     public Button closetButton;
+    public Button settingButton;
 
     public PanelControl mathPanelControl;
     public PanelControl closetPanelControl;
+    public PanelControl settingPanelControl;
 
     void Start()
     {
         if (mathPanelControl != null) mathPanelControl.HidePanel();
         if (closetPanelControl != null) closetPanelControl.HidePanel();
+        if (settingPanelControl != null) settingPanelControl.HidePanel();
 
         mathButton.onClick.AddListener(OnMathButtonClick);
         closetButton.onClick.AddListener(OnClosetButtonClick);
+        settingButton.onClick.AddListener(OnSettingButtonClick);
 
     }
     void OnMathButtonClick()
@@ -33,6 +37,14 @@ public class ButtonControl : MonoBehaviour
         if (closetPanelControl != null)
         {
             closetPanelControl.TogglePanel();
+        }
+    }
+    void OnSettingButtonClick()
+    {
+        if (settingPanelControl != null)
+        {
+            Debug.Log("Here");
+            settingPanelControl.TogglePanel();
         }
     }
 }
