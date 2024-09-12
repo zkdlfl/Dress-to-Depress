@@ -356,6 +356,7 @@
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.45f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.45f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/ButtonControl.cs"
+"Assets/Scripts/ClothingChoices.cs"
 "Assets/Scripts/CoinManage.cs"
 "Assets/Scripts/PanelControl.cs"
 "Assets/Scripts/Settings.cs"
