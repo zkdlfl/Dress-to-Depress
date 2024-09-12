@@ -820,11 +820,11 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: 
+  cloudProjectId: 74eb6aa3-57b7-4e8b-99fa-1f458168ba45
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: 
-  organizationId: 
+  projectName: New Unity Project
+  organizationId: aisolator_unity
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   playerDataPath: 
