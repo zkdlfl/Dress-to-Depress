@@ -2,11 +2,11 @@ Unity Editor version:    2022.3.45f1 (a13dfa44d684)
 Branch:                  2022.3/staging
 Build type:              Release
 Batch mode:              YES
-macOS version:           Version 14.5 (Build 23F79)
-Darwin version:          23.5.0
+macOS version:           Version 14.3 (Build 23D56)
+Darwin version:          23.3.0
 Architecture:            arm64
 Running under Rosetta:   NO
-Available memory:        16384 MB
+Available memory:        8192 MB
 Using pre-set license
 Pro License: YES
 
@@ -18,13 +18,13 @@ COMMAND LINE ARGUMENTS:
 -name
 AssetImportWorker0
 -projectPath
-/Users/stephainecheang/Documents/GitHub/Testing/New Unity Project
+/Users/xuduoduo/ics-classwork4U/Testing/New Unity Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56648
-Successfully changed project path to: /Users/stephainecheang/Documents/GitHub/Testing/New Unity Project
-/Users/stephainecheang/Documents/GitHub/Testing/New Unity Project
+60087
+Successfully changed project path to: /Users/xuduoduo/ics-classwork4U/Testing/New Unity Project
+/Users/xuduoduo/ics-classwork4U/Testing/New Unity Project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -56,74 +56,76 @@ Successfully changed project path to: /Users/stephainecheang/Documents/GitHub/Te
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [8309033984]  Target information:
+Player connection [8025988160]  Target information:
 
-Player connection [8309033984]  * "[IP] 10.130.173.41 [Port] 0 [Flags] 2 [Guid] 3759574223 [EditorId] 3759574223 [Version] 1048832 [Id] OSXEditor(0,Stephaines-MacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8025988160]  * "[IP] 10.130.167.23 [Port] 0 [Flags] 2 [Guid] 3524850344 [EditorId] 3524850344 [Version] 1048832 [Id] OSXEditor(0,xuduoduodeMacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
-Player connection [8309033984] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [8309033984] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8025988160]  * "[IP] 172.21.0.1 [Port] 0 [Flags] 2 [Guid] 3524850344 [EditorId] 3524850344 [Version] 1048832 [Id] OSXEditor(0,xuduoduodeMacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [8025988160] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8025988160] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-Refreshing native plugins compatible for Editor in 8.69 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 17.07 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.45f1 (a13dfa44d684)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.45f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/stephainecheang/Documents/GitHub/Testing/New Unity Project/Assets
+[Subsystems] Discovering subsystems at path /Users/xuduoduo/ics-classwork4U/Testing/New Unity Project/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
- preferred device: Apple M3 (high power)
+ preferred device: Apple M1 (high power)
 Metal devices available: 1
-0: Apple M3 (high power)
-Using device Apple M3 (high power)
-Initializing Metal device caps: Apple M3
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.45f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.45f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2022.3.45f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56144
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56393
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.45f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.45f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2022.3.45f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.004464 seconds.
-- Loaded All Assemblies, in  0.188 seconds
+Registered in 0.007001 seconds.
+- Loaded All Assemblies, in  0.517 seconds
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 52 ms
+Android Extension - Scanning For ADB Devices 335 ms
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.245 seconds
-Domain Reload Profiling: 433ms
-	BeginReloadAssembly (58ms)
+- Finished resetting the current domain, in  0.880 seconds
+Domain Reload Profiling: 1398ms
+	BeginReloadAssembly (129ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (18ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (79ms)
-		LoadAssemblies (59ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (266ms)
+		LoadAssemblies (130ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (78ms)
-			TypeCache.Refresh (77ms)
-				TypeCache.ScanAssembly (70ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (245ms)
+		AnalyzeDomain (261ms)
+			TypeCache.Refresh (259ms)
+				TypeCache.ScanAssembly (230ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (881ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (223ms)
+		SetupLoadedEditorAssemblies (812ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (152ms)
-			SetLoadedEditorAssemblies (2ms)
+			InitializePlatformSupportModulesInManaged (656ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (48ms)
-			ProcessInitializeOnLoadMethodAttributes (19ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (102ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -132,7 +134,59 @@ Domain Reload Profiling: 433ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.258 seconds
+Symbol file data-0x128030000 doesn't match image /Users/xuduoduo/ics-classwork4U/Testing/New Unity Project/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x121d10200 doesn't match image /Users/xuduoduo/ics-classwork4U/Testing/New Unity Project/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x121c60400 doesn't match image /Users/xuduoduo/ics-classwork4U/Testing/New Unity Project/Library/ScriptAssemblies/Unity.AI.Navigation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x128388000 doesn't match image /Users/xuduoduo/ics-classwork4U/Testing/New Unity Project/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x121760e00 doesn't match image /Users/xuduoduo/ics-classwork4U/Testing/New Unity Project/Library/ScriptAssemblies/Unity.AI.Navigation.Updater.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x140750000 doesn't match image /Users/xuduoduo/ics-classwork4U/Testing/New Unity Project/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x138018000 doesn't match image /Users/xuduoduo/ics-classwork4U/Testing/New Unity Project/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x128388000 doesn't match image /Users/xuduoduo/ics-classwork4U/Testing/New Unity Project/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x121c60400 doesn't match image /Users/xuduoduo/ics-classwork4U/Testing/New Unity Project/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x1218db200 doesn't match image /Users/xuduoduo/ics-classwork4U/Testing/New Unity Project/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x140740000 doesn't match image /Users/xuduoduo/ics-classwork4U/Testing/New Unity Project/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x140830000 doesn't match image /Users/xuduoduo/ics-classwork4U/Testing/New Unity Project/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x140740000 doesn't match image /Users/xuduoduo/ics-classwork4U/Testing/New Unity Project/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x140830000 doesn't match image /Users/xuduoduo/ics-classwork4U/Testing/New Unity Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x140848000 doesn't match image /Users/xuduoduo/ics-classwork4U/Testing/New Unity Project/Library/ScriptAssemblies/UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x140178000 doesn't match image /Users/xuduoduo/ics-classwork4U/Testing/New Unity Project/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x140740000 doesn't match image /Users/xuduoduo/ics-classwork4U/Testing/New Unity Project/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x121760e00 doesn't match image /Users/xuduoduo/ics-classwork4U/Testing/New Unity Project/Library/ScriptAssemblies/Unity.AI.Navigation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x12186de00 doesn't match image /Users/xuduoduo/ics-classwork4U/Testing/New Unity Project/Library/ScriptAssemblies/Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x121d10200 doesn't match image /Users/xuduoduo/ics-classwork4U/Testing/New Unity Project/Library/ScriptAssemblies/Unity.AI.Navigation.Editor.ConversionSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x131518000 doesn't match image /Users/xuduoduo/ics-classwork4U/Testing/New Unity Project/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x128400000 doesn't match image /Users/xuduoduo/ics-classwork4U/Testing/New Unity Project/Library/ScriptAssemblies/UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x121760e00 doesn't match image /Users/xuduoduo/ics-classwork4U/Testing/New Unity Project/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x138180000 doesn't match image /Users/xuduoduo/ics-classwork4U/Testing/New Unity Project/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x131598000 doesn't match image /Users/xuduoduo/ics-classwork4U/Testing/New Unity Project/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x138180000 doesn't match image /Users/xuduoduo/ics-classwork4U/Testing/New Unity Project/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.586 seconds
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
@@ -141,48 +195,48 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.252 seconds
-Domain Reload Profiling: 510ms
-	BeginReloadAssembly (55ms)
+- Finished resetting the current domain, in  0.561 seconds
+Domain Reload Profiling: 1148ms
+	BeginReloadAssembly (110ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (2ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (14ms)
-	RebuildCommonClasses (17ms)
-	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (16ms)
-	LoadAllAssembliesAndSetupDomain (164ms)
-		LoadAssemblies (120ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (395ms)
+		LoadAssemblies (257ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (67ms)
-			TypeCache.Refresh (60ms)
-				TypeCache.ScanAssembly (52ms)
-			ScanForSourceGeneratedMonoScriptInfo (5ms)
-			ResolveRequiredComponents (2ms)
-	FinalizeReload (252ms)
+		AnalyzeDomain (179ms)
+			TypeCache.Refresh (161ms)
+				TypeCache.ScanAssembly (129ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (562ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (171ms)
+		SetupLoadedEditorAssemblies (389ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (2ms)
+			InitializePlatformSupportModulesInManaged (31ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (21ms)
-			ProcessInitializeOnLoadAttributes (128ms)
-			ProcessInitializeOnLoadMethodAttributes (8ms)
-			AfterProcessingInitializeOnLoad (0ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (280ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (1ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
 Launching external process: /Applications/Unity/Hub/Editor/2022.3.45f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.09 seconds
+Refreshing native plugins compatible for Editor in 1.66 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3008 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (48.6 KB). Loaded Objects now: 3477.
-Memory consumption went from 125.6 MB to 125.5 MB.
-Total: 2.125083 ms (FindLiveObjects: 0.102209 ms CreateObjectMapping: 0.030916 ms MarkObjects: 1.943125 ms  DeleteObjects: 0.048584 ms)
+Unloading 3046 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (40.5 KB). Loaded Objects now: 3517.
+Memory consumption went from 126.4 MB to 126.4 MB.
+Total: 4.905583 ms (FindLiveObjects: 0.340041 ms CreateObjectMapping: 0.072542 ms MarkObjects: 4.199625 ms  DeleteObjects: 0.292542 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -199,150 +253,140 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 49170.603057 seconds.
-  path: Assets/Sounds/Sound Effects
-  artifactKey: Guid(9e6bda33d5c834560a1df98dc891e37b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Sound Effects using Guid(9e6bda33d5c834560a1df98dc891e37b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'bff57edc5c05aa605eb8204d31e55eef') in 0.001291 seconds
+  Time since last request: 266014.630230 seconds.
+  path: Assets/Scripts/CoinManage.cs
+  artifactKey: Guid(36a1ea948b17c4183b6f3db46678a4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CoinManage.cs using Guid(36a1ea948b17c4183b6f3db46678a4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ba956596b12be72442247a48ff277d6b') in 0.011315 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 1295.039479 seconds.
-  path: Assets/Sounds/Background Music/upbeat-fashion-lounge-186806.mp3
-  artifactKey: Guid(8d961a982e5564b1f9103ef9f69c8543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Background Music/upbeat-fashion-lounge-186806.mp3 using Guid(8d961a982e5564b1f9103ef9f69c8543) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+  Time since last request: 9.417079 seconds.
+  path: Assets/Sprites/Cursor1.png
+  artifactKey: Guid(d2e6b5fb0cb8b4f4c98e30c627e1a092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Cursor1.png using Guid(d2e6b5fb0cb8b4f4c98e30c627e1a092) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '11a8df4bc2c3cbfeabfdeea86bef5ee9') in 0.116320 seconds
+ -> (artifact id: '33b96c78f05aa01a53d8176992d82cfa') in 0.191247 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 3
 ========================================================================
-Received Import Request.
-  Time since last request: 109.670122 seconds.
-  path: Assets/Sounds/Background Music/fashion-165576.mp3
-  artifactKey: Guid(5269f54332f5e44e9b2e4d9d6707f536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Background Music/fashion-165576.mp3 using Guid(5269f54332f5e44e9b2e4d9d6707f536) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '881e45ef2b8bd2be8d17dfa984be5ce4') in 0.007057 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 99.956738 seconds.
-  path: Assets/Sounds/Background Music/fashion-pop.mp3
-  artifactKey: Guid(6d2cff2f791504393bd915b2a4be9b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Background Music/fashion-pop.mp3 using Guid(6d2cff2f791504393bd915b2a4be9b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '5e82b173df8f355b3e7e5152378994e5') in 0.007021 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 11.897110 seconds.
-  path: Assets/Sounds/Background Music/music 1.mp3
-  artifactKey: Guid(5269f54332f5e44e9b2e4d9d6707f536) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Background Music/music 1.mp3 using Guid(5269f54332f5e44e9b2e4d9d6707f536) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '491d8fd0e7e1c7851b12a6303688a43f') in 0.006424 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 11.911513 seconds.
-  path: Assets/Sounds/Background Music/music 2.mp3
-  artifactKey: Guid(6d2cff2f791504393bd915b2a4be9b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Background Music/music 2.mp3 using Guid(6d2cff2f791504393bd915b2a4be9b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '4c87c52f0750f675f0713afb6960b2c1') in 0.007401 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 6.770912 seconds.
-  path: Assets/Sounds/Background Music/music 3.mp3
-  artifactKey: Guid(8d961a982e5564b1f9103ef9f69c8543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Background Music/music 3.mp3 using Guid(8d961a982e5564b1f9103ef9f69c8543) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '02b6630e00ef401250e75adf250829af') in 0.007864 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 139.751788 seconds.
-  path: Assets/Sounds/Sound Effects/coin-recieved-230517.mp3
-  artifactKey: Guid(7e35d466552b747999baebef0baa6c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Sound Effects/coin-recieved-230517.mp3 using Guid(7e35d466552b747999baebef0baa6c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '92fe6e1cdae840c38d1c417662345e32') in 0.006191 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 157.571186 seconds.
-  path: Assets/Sounds/Sound Effects/click-button-140881.mp3
-  artifactKey: Guid(e4a647e52f370488f9fc8e6a631b220d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Sound Effects/click-button-140881.mp3 using Guid(e4a647e52f370488f9fc8e6a631b220d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: 'fc3bace1d060425baab27ae3f7f0f309') in 0.011542 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 128.930163 seconds.
-  path: Assets/Sounds/Sound Effects/ding-36029.mp3
-  artifactKey: Guid(47b879fa7d5be4e4f826581eda9cc0d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Sound Effects/ding-36029.mp3 using Guid(47b879fa7d5be4e4f826581eda9cc0d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '3138036446472419b7e9fb0315d368d7') in 0.007950 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 18.399480 seconds.
-  path: Assets/Sounds/Sound Effects/unlocked-item.mp3
-  artifactKey: Guid(47b879fa7d5be4e4f826581eda9cc0d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Sound Effects/unlocked-item.mp3 using Guid(47b879fa7d5be4e4f826581eda9cc0d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '228c9769e8e4a796a342e7234da602ce') in 0.006595 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 35.215571 seconds.
-  path: Assets/Sounds/Sound Effects/coin-received.mp3
-  artifactKey: Guid(7e35d466552b747999baebef0baa6c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Sound Effects/coin-received.mp3 using Guid(7e35d466552b747999baebef0baa6c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '6e93559f5c2e319e91a4ef09fe88ecc0') in 0.007039 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 124.332120 seconds.
-  path: Assets/Sounds/Sound Effects/mouse-click-153941.mp3
-  artifactKey: Guid(dc05b0addb04644b2aea432a2d5873c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Sound Effects/mouse-click-153941.mp3 using Guid(dc05b0addb04644b2aea432a2d5873c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '9817e9b04f6712853d896a5d107dd6ab') in 0.006388 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 15.175241 seconds.
-  path: Assets/Sounds/Sound Effects/cursor-click.mp3
-  artifactKey: Guid(dc05b0addb04644b2aea432a2d5873c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Sound Effects/cursor-click.mp3 using Guid(dc05b0addb04644b2aea432a2d5873c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '82e8c1a7f6ca55fa276dc24f5071eaaa') in 0.006284 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 79.089648 seconds.
-  path: Assets/Sounds/Sound Effects/ui-button.mp3
-  artifactKey: Guid(e4a647e52f370488f9fc8e6a631b220d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sounds/Sound Effects/ui-button.mp3 using Guid(e4a647e52f370488f9fc8e6a631b220d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
- -> (artifact id: '368953d4d5623fad5776c211ff73439c') in 0.007804 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Thread 0x2af1a7000 may have been prematurely finalized
+Symbol file data-0x130708000 doesn't match image /Users/xuduoduo/ics-classwork4U/Testing/New Unity Project/Library/ScriptAssemblies/Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x11fa7e000 doesn't match image /Users/xuduoduo/ics-classwork4U/Testing/New Unity Project/Library/ScriptAssemblies/Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x11fa90000 doesn't match image /Users/xuduoduo/ics-classwork4U/Testing/New Unity Project/Library/ScriptAssemblies/Unity.AI.Navigation.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x1403b8000 doesn't match image /Users/xuduoduo/ics-classwork4U/Testing/New Unity Project/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x2b0058600 doesn't match image /Users/xuduoduo/ics-classwork4U/Testing/New Unity Project/Library/ScriptAssemblies/Unity.AI.Navigation.Updater.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x140400000 doesn't match image /Users/xuduoduo/ics-classwork4U/Testing/New Unity Project/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x1403d8000 doesn't match image /Users/xuduoduo/ics-classwork4U/Testing/New Unity Project/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x1404a0000 doesn't match image /Users/xuduoduo/ics-classwork4U/Testing/New Unity Project/Library/ScriptAssemblies/Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x2b0058600 doesn't match image /Users/xuduoduo/ics-classwork4U/Testing/New Unity Project/Library/ScriptAssemblies/Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x11fa9ae00 doesn't match image /Users/xuduoduo/ics-classwork4U/Testing/New Unity Project/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x1403d8000 doesn't match image /Users/xuduoduo/ics-classwork4U/Testing/New Unity Project/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x170040000 doesn't match image /Users/xuduoduo/ics-classwork4U/Testing/New Unity Project/Library/ScriptAssemblies/Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x1404a0000 doesn't match image /Users/xuduoduo/ics-classwork4U/Testing/New Unity Project/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x130708000 doesn't match image /Users/xuduoduo/ics-classwork4U/Testing/New Unity Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x1403d8000 doesn't match image /Users/xuduoduo/ics-classwork4U/Testing/New Unity Project/Library/ScriptAssemblies/UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x130830000 doesn't match image /Users/xuduoduo/ics-classwork4U/Testing/New Unity Project/Library/ScriptAssemblies/Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x170008000 doesn't match image /Users/xuduoduo/ics-classwork4U/Testing/New Unity Project/Library/ScriptAssemblies/Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x11fa98400 doesn't match image /Users/xuduoduo/ics-classwork4U/Testing/New Unity Project/Library/ScriptAssemblies/Unity.AI.Navigation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x2a82d2800 doesn't match image /Users/xuduoduo/ics-classwork4U/Testing/New Unity Project/Library/ScriptAssemblies/Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x2a82ca600 doesn't match image /Users/xuduoduo/ics-classwork4U/Testing/New Unity Project/Library/ScriptAssemblies/Unity.AI.Navigation.Editor.ConversionSystem.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x1380b0000 doesn't match image /Users/xuduoduo/ics-classwork4U/Testing/New Unity Project/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x128670000 doesn't match image /Users/xuduoduo/ics-classwork4U/Testing/New Unity Project/Library/ScriptAssemblies/UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x2a82d2800 doesn't match image /Users/xuduoduo/ics-classwork4U/Testing/New Unity Project/Library/ScriptAssemblies/Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x128640000 doesn't match image /Users/xuduoduo/ics-classwork4U/Testing/New Unity Project/Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x1404a0000 doesn't match image /Users/xuduoduo/ics-classwork4U/Testing/New Unity Project/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x130890000 doesn't match image /Users/xuduoduo/ics-classwork4U/Testing/New Unity Project/Library/ScriptAssemblies/Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.477 seconds
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.966 seconds
+Domain Reload Profiling: 1443ms
+	BeginReloadAssembly (184ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (74ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (215ms)
+		LoadAssemblies (264ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (26ms)
+			TypeCache.Refresh (17ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (967ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (382ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (31ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (266ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 2.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3026 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 13 unused Assets / (28.0 KB). Loaded Objects now: 3526.
+Memory consumption went from 130.1 MB to 130.1 MB.
+Total: 4.514208 ms (FindLiveObjects: 0.330125 ms CreateObjectMapping: 0.071042 ms MarkObjects: 3.976583 ms  DeleteObjects: 0.135125 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
