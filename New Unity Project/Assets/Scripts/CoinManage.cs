@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Coin : MonoBehaviour
 {
-    public int coins = 100; // Initial coin amount
+    public int coins = 100;
     public Text coinText;
 
     void Start()
@@ -23,7 +23,7 @@ public class Coin : MonoBehaviour
         }
         else
         {
-            Debug.Log("Not enough coins");
+            Debug.Log("Not enough coins!");
         }
     }
 
