@@ -7,8 +7,8 @@ public class MainMenuButtons : MonoBehaviour
 {
     public Button InstructionButton;
     public Button InstructionExitButton;
-    public PanelControl InstructionButtonPanelControl;
-    public PanelControl InstructionExitButtonPanelControl;
+    public MainMenuPanelControl InstructionButtonPanelControl;
+    public MainMenuPanelControl InstructionExitButtonPanelControl;
 
     void Start()
     {
