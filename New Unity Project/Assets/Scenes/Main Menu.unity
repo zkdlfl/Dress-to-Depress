@@ -223,6 +223,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 242792054}
+  - component: {fileID: 242792055}
   m_Layer: 0
   m_Name: Button
   m_TagString: Untagged
@@ -247,6 +248,22 @@ Transform:
   - {fileID: 1474952952}
   m_Father: {fileID: 1737157676}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &242792055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 242792053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f8f6a7f0bb4040da8a53882e5fa73c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InstructionButton: {fileID: 1474952953}
+  InstructionExitButton: {fileID: 1102267660}
+  InstructionButtonPanelControl: {fileID: 0}
+  InstructionExitButtonPanelControl: {fileID: 0}
 --- !u!1 &539174652
 GameObject:
   m_ObjectHideFlags: 0
@@ -465,9 +482,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11500000, guid: 54ad23ee01e764fc38aa589ec3725289, type: 3}
+      - m_Target: {fileID: 563657435}
         m_TargetAssemblyTypeName: NewBehaviourScript, Assembly-CSharp
-        m_MethodName: 
+        m_MethodName: SwitchScene
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -538,6 +555,7 @@ GameObject:
   - component: {fileID: 804416161}
   - component: {fileID: 804416163}
   - component: {fileID: 804416162}
+  - component: {fileID: 804416164}
   m_Layer: 5
   m_Name: InstructionPanel
   m_TagString: Untagged
@@ -563,7 +581,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -382, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &804416162
@@ -604,6 +622,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 804416160}
   m_CullTransparentMesh: 1
+--- !u!114 &804416164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 804416160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0fd9c465f52c42ab8515ba333cc9848, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panel: {fileID: 1102267658}
 --- !u!1 &842023658
 GameObject:
   m_ObjectHideFlags: 0
@@ -750,8 +781,10 @@ GameObject:
   - component: {fileID: 1102267662}
   - component: {fileID: 1102267661}
   - component: {fileID: 1102267660}
+  - component: {fileID: 1102267663}
+  - component: {fileID: 1102267664}
   m_Layer: 5
-  m_Name: Button
+  m_Name: InstructionExitButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -774,7 +807,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 376, y: 183}
+  m_AnchoredPosition: {x: 376, y: 188}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1102267660
@@ -859,6 +892,62 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1102267658}
   m_CullTransparentMesh: 1
+--- !u!114 &1102267663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1102267658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 371e039cbd4ff404c87115b62b11ba99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1102267664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1102267658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c261f7dc71e74f408da1bcf3f28098b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panel: {fileID: 0}
+--- !u!1 &1149439247
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1149439248}
+  m_Layer: 0
+  m_Name: Instruction
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1149439248
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1149439247}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 387.2695, y: 185.3365, z: -1.1834666}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1264001010
 GameObject:
   m_ObjectHideFlags: 0
@@ -939,6 +1028,8 @@ GameObject:
   - component: {fileID: 1474952955}
   - component: {fileID: 1474952954}
   - component: {fileID: 1474952953}
+  - component: {fileID: 1474952956}
+  - component: {fileID: 1474952957}
   m_Layer: 5
   m_Name: InstructionButton
   m_TagString: Untagged
@@ -1048,6 +1139,32 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1474952951}
   m_CullTransparentMesh: 1
+--- !u!114 &1474952956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1474952951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0fd9c465f52c42ab8515ba333cc9848, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panel: {fileID: 804416160}
+--- !u!114 &1474952957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1474952951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0fd9c465f52c42ab8515ba333cc9848, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  panel: {fileID: 1474952951}
 --- !u!1 &1731372437
 GameObject:
   m_ObjectHideFlags: 0
@@ -1561,3 +1678,4 @@ SceneRoots:
   - {fileID: 233490756}
   - {fileID: 1737157676}
   - {fileID: 1264001013}
+  - {fileID: 1149439248}
