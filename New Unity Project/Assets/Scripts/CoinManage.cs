@@ -1,12 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+using TMPro;
 
 public class Coin : MonoBehaviour
 {
     public int coins = 100;
-    public Text coinText;
+    public TextMeshProUGUI coinText;
 
     void Start()
     {
@@ -31,7 +31,12 @@ public class Coin : MonoBehaviour
     {
         if (coinText != null)
         {
-            coinText.text = "Coins: " + coins.ToString();
+            coinText.text = "Coins: " + coins.ToString();  // Update the UI text to reflect the current coin count
+            Debug.Log("Coin Text updated to: " + coins);
+        }
+        else
+        {
+            Debug.LogError("coinText is null and not updating!");
         }
     }
 }

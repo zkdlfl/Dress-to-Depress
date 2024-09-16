@@ -2,19 +2,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class Clothing : MonoBehaviour
 {
     public GameObject clothingButtonPrefab;
     public GameObject clothingButtonParent;
     public List<int> clothingPrices;
-    public Text coinText;
-    public int playerCoins;
+    public Coin coinManager;
 
     void Start()
     {
         GenerateClothingButtons();
-        UpdateCoinText();
     }
 
     void GenerateClothingButtons()
@@ -23,7 +22,8 @@ public class Clothing : MonoBehaviour
         {
             GameObject newButton = Instantiate(clothingButtonPrefab, clothingButtonParent.transform);
             int price = clothingPrices[i];
-            newButton.GetComponentInChildren<Text>().text = "Clothing " + (i + 1) + " - " + price + " coins";
+
+            newButton.GetComponentInChildren<TextMeshProUGUI>().text = "Clothing " + (i + 1) + " - " + price + " coins";
 
             int index = i;
             newButton.GetComponent<Button>().onClick.AddListener(() => PurchaseClothing(index));
@@ -34,20 +34,14 @@ public class Clothing : MonoBehaviour
     {
         int price = clothingPrices[index];
 
-        if (playerCoins >= price)
+        if (coinManager.coins >= price)
         {
-            playerCoins -= price;
-            UpdateCoinText();
+            coinManager.SpendCoins(price);
             Debug.Log("Purchased clothing item " + (index + 1));
         }
         else
         {
-            Debug.Log("Not enough coins!"); // Corrected with a semicolon here
+            Debug.Log("Not enough coins!");
         }
-    }
-
-    void UpdateCoinText()
-    {
-        coinText.text = "Coins: " + playerCoins.ToString();
     }
 }
