@@ -9,16 +9,25 @@ public class MainMenuPanelControl : MonoBehaviour
 
     public void ShowPanel()
     {
-        panel?.SetActive(true);
+        if (panel != null)
+        {
+            panel.SetActive(true);
+        }
     }
 
     public void HidePanel()
     {
-        panel?.SetActive(false);
+        if (panel != null)
+        {
+            panel.SetActive(false);
+        }
     }
 
     public void TogglePanel()
     {
-        panel?.SetActive(!panel.activeSelf);
+        if (panel != null)
+        {
+            panel.SetActive(!panel.activeSelf);
+        }
     }
 }
