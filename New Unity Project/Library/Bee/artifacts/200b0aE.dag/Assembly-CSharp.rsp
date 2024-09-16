@@ -359,8 +359,10 @@
 "Assets/Scripts/ClosetExist.cs"
 "Assets/Scripts/ClothingChoices.cs"
 "Assets/Scripts/CoinManage.cs"
+"Assets/Scripts/CursorClickSound.cs"
 "Assets/Scripts/MainMenuButtons.cs"
 "Assets/Scripts/MainMenuPanelControl.cs"
+"Assets/Scripts/Math Panel/InputHandler.cs"
 "Assets/Scripts/MenutoPlay.cs"
 "Assets/Scripts/PanelControl.cs"
 -langversion:9.0
