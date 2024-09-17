@@ -2,18 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-using System;
 
 public class Coin : MonoBehaviour
 {
     public int coins = 100;
-    public TMP_Text coinText;
+    public TextMeshProUGUI coinText;
 
     void Start()
     {
         UpdateCoinText();
     }
-
 
     public void SpendCoins(int amount)
     {
@@ -33,7 +31,8 @@ public class Coin : MonoBehaviour
     {
         if (coinText != null)
         {
-            coinText.text = "Coins: " + coins.ToString();
+            coinText.text = "Coins: " + coins.ToString();  // Update the UI text to reflect the current coin count
+            Debug.Log("Coin Text updated to: " + coins);
         }
         else
         {
