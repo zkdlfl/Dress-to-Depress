@@ -8,8 +8,8 @@ public class Clothing : MonoBehaviour
 {
     public GameObject clothingButtonPrefab;
     public GameObject clothingButtonParent;
-    public Coin coinManager;
     public List<int> clothingPrices;
+    public Coin coinManager;
 
     void Start()
     {
@@ -23,11 +23,8 @@ public class Clothing : MonoBehaviour
             GameObject newButton = Instantiate(clothingButtonPrefab, clothingButtonParent.transform);
             int price = clothingPrices[i];
 
-            TextMeshProUGUI buttonText = newButton.GetComponentInChildren<TextMeshProUGUI>();
-            if (buttonText != null)
-            {
-                buttonText.text = "Clothing " + (i + 1) + " - " + price + " coins";
-            }
+            newButton.GetComponentInChildren<TextMeshProUGUI>().text = "Clothing " + (i + 1) + " - " + price + " coins";
+
             int index = i;
             newButton.GetComponent<Button>().onClick.AddListener(() => PurchaseClothing(index));
         }
