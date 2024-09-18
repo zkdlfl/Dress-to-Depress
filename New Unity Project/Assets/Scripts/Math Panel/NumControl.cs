@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class NumControl : MonoBehaviour
 {
@@ -10,13 +11,8 @@ public class NumControl : MonoBehaviour
     private int countGuess;
 
     [SerializeField] private GameObject btn;
-    [SerializeField] private InputField Input;
-    [SerializeField] private Text Text;
-
-    // [SerializeField]
-    // private InputField input;
-    // [SerializeField]
-    // private Text text;
+    [SerializeField] private TMPro.TMP_InputField userInput;
+    [SerializeField] private TMPro.TMP_Text Text;
 
     void Awake(){
         // Input = GameObject.Find ("InputField").GetComponent<InputField>();
@@ -26,7 +22,7 @@ public class NumControl : MonoBehaviour
     public void GetInput(string guess){
         Debug.Log("You entered " + guess);
         CompareGuesses (int.Parse(guess));
-        Input.text = "";
+        userInput.text = "";
         countGuess++;
     }
     void CompareGuesses(int guess){
