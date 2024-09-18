@@ -21,7 +21,7 @@ public class NumControl : MonoBehaviour
     void Awake(){
         // Input = GameObject.Find ("InputField").GetComponent<InputField>();
         num = UnityEngine.Random.Range(0, 11);
-        text.text = "Guess a number between 0 and 10!";
+        Text.text = "Guess a number between 0 and 10!";
     }
     public void GetInput(string guess){
         Debug.Log("You entered " + guess);
@@ -32,18 +32,18 @@ public class NumControl : MonoBehaviour
     void CompareGuesses(int guess){
         // guessNumber = guess;
         if (guess == num){
-            text.text = "Correct! Depositing coins...";
+            Text.text = "Correct! Depositing coins...";
             btn.SetActive(true);
         } else if (guess < num){
-            text.text = "Wrong... Guess higher!";
+            Text.text = "Wrong... Guess higher!";
         } else if (guess > num){
-            text.text = "Wrong... Guess lower!";
+            Text.text = "Wrong... Guess lower!";
         }
     }
 
     public void PlayAgain(){
         num = UnityEngine.Random.Range(0, 11);
-        text.text = "Guess a number between 0 and 10!";
+        Text.text = "Guess a number between 0 and 10!";
         countGuess = 0;
         btn.SetActive (false);
     }
