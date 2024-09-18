@@ -9,26 +9,42 @@ public class NumControl : MonoBehaviour
     // private int guessNumber;
     private int countGuess;
 
-    [SerializeField] private GameObject Input;
-    [SerializeField] private GameObject Text;
+    [SerializeField] private GameObject btn;
+    [SerializeField] private InputField Input;
+    [SerializeField] private Text Text;
+
+    // [SerializeField]
+    // private InputField input;
+    // [SerializeField]
+    // private Text text;
 
     void Awake(){
+        // Input = GameObject.Find ("InputField").GetComponent<InputField>();
         num = UnityEngine.Random.Range(0, 11);
         text.text = "Guess a number between 0 and 10!";
     }
     public void GetInput(string guess){
         Debug.Log("You entered " + guess);
         CompareGuesses (int.Parse(guess));
-        input.text = "";
+        Input.text = "";
+        countGuess++;
     }
     void CompareGuesses(int guess){
         // guessNumber = guess;
         if (guess == num){
             text.text = "Correct! Depositing coins...";
+            btn.SetActive(true);
         } else if (guess < num){
             text.text = "Wrong... Guess higher!";
         } else if (guess > num){
             text.text = "Wrong... Guess lower!";
         }
+    }
+
+    public void PlayAgain(){
+        num = UnityEngine.Random.Range(0, 11);
+        text.text = "Guess a number between 0 and 10!";
+        countGuess = 0;
+        btn.SetActive (false);
     }
 }
