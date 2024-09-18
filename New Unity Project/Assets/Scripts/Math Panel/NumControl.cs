@@ -9,10 +9,9 @@ public class NumControl : MonoBehaviour
     // private int guessNumber;
     private int countGuess;
 
-    [SerializeField]
-    private InputField input;
-    [SerializeField]
-    private Text text;
+    [SerializeField] private GameObject Input;
+    [SerializeField] private GameObject Text;
+
     void Awake(){
         num = UnityEngine.Random.Range(0, 11);
         text.text = "Guess a number between 0 and 10!";
