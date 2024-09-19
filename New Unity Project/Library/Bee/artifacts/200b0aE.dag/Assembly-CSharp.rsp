@@ -357,7 +357,6 @@
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.45f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/ButtonControl.cs"
 "Assets/Scripts/CheerButton.cs"
-"Assets/Scripts/ClosetExist.cs"
 "Assets/Scripts/ClothingChoices.cs"
 "Assets/Scripts/CursorClickSound.cs"
 "Assets/Scripts/FinishButtonCounter.cs"

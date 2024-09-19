@@ -1314,7 +1314,7 @@ GameObject:
   - component: {fileID: 414429854}
   - component: {fileID: 414429857}
   - component: {fileID: 414429856}
-  - component: {fileID: 414429859}
+  - component: {fileID: 414429858}
   - component: {fileID: 414429855}
   m_Layer: 5
   m_Name: ClosetPanel
@@ -1394,7 +1394,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 414429853}
   m_CullTransparentMesh: 1
---- !u!114 &414429859
+--- !u!114 &414429858
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1406,10 +1406,35 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df7c37a86eb4b4a298a1f71eefdf0100, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clothingButtonPrefab: {fileID: 2083257380}
-  clothingButtonParent: {fileID: 414429853}
-  clothingPrices: 
-  coinManager: {fileID: 0}
+  coinText: {fileID: 1022687349}
+  coins: 100
+  clothButtons:
+  - {fileID: 1478725072}
+  - {fileID: 1588645203}
+  - {fileID: 365029386}
+  - {fileID: 1305766525}
+  - {fileID: 1607586920}
+  - {fileID: 1644477533}
+  - {fileID: 2036151962}
+  - {fileID: 1730234493}
+  - {fileID: 713458575}
+  avatarShoe: {fileID: 1298452212}
+  avatarPant: {fileID: 1298452212}
+  avatarTop: {fileID: 1298452212}
+  avatarBase: {fileID: 1298452212}
+  ShoeSprites:
+  - {fileID: 139141600, guid: 7fea1374a4cab411f8f1774581cfce72, type: 3}
+  - {fileID: 1587336396, guid: 7fea1374a4cab411f8f1774581cfce72, type: 3}
+  - {fileID: 925594125, guid: 7fea1374a4cab411f8f1774581cfce72, type: 3}
+  PantSprites:
+  - {fileID: -179902559, guid: 7fea1374a4cab411f8f1774581cfce72, type: 3}
+  - {fileID: -1533198186, guid: 7fea1374a4cab411f8f1774581cfce72, type: 3}
+  - {fileID: -1017988707, guid: 7fea1374a4cab411f8f1774581cfce72, type: 3}
+  TopSprites:
+  - {fileID: 139141600, guid: 7fea1374a4cab411f8f1774581cfce72, type: 3}
+  - {fileID: -128095798, guid: 7fea1374a4cab411f8f1774581cfce72, type: 3}
+  - {fileID: 762983462, guid: 7fea1374a4cab411f8f1774581cfce72, type: 3}
+  clothPrices: 0a0000000a0000000a000000190000001900000019000000320000003200000032000000
 --- !u!1 &420969197
 GameObject:
   m_ObjectHideFlags: 0
@@ -1940,7 +1965,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 620720059}
-  - component: {fileID: 620720064}
   - component: {fileID: 620720061}
   - component: {fileID: 620720065}
   m_Layer: 0
@@ -1957,17 +1981,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 620720058}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -2.9479618}
+  m_LocalRotation: {x: -0.045890465, y: -0, z: -0, w: 0.9989465}
+  m_LocalPosition: {x: 0, y: 0, z: 100}
   m_LocalScale: {x: 10, y: 10, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1022687348}
   m_Father: {fileID: 806959501}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -5.261, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -293.09055, y: 153.30878}
+  m_AnchoredPosition: {x: -286, y: 131}
   m_SizeDelta: {x: 5.9319, y: 5.8841}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &620720061
@@ -1978,20 +2002,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 620720058}
   m_CullTransparentMesh: 0
---- !u!114 &620720064
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 620720058}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 36a1ea948b17c4183b6f3db46678a4f9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  coins: 100
-  coinText: {fileID: 1022687349}
 --- !u!114 &620720065
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3223,7 +3233,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1022687347}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -3232,8 +3242,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3.3989, y: -5.8433566}
-  m_SizeDelta: {x: 14.39436, y: 5.7983}
+  m_AnchoredPosition: {x: 2.6888428, y: -4.1950264}
+  m_SizeDelta: {x: 12.97427, y: 2.50166}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1022687349
 MonoBehaviour:
@@ -3945,7 +3955,7 @@ SpriteRenderer:
   m_Size: {x: 2.5, y: 2.5}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1298452213
@@ -4048,8 +4058,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1301788168}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.000061035156, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
