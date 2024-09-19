@@ -6,42 +6,45 @@ using TMPro;
 
 public class Clothing : MonoBehaviour
 {
-    public GameObject clothingButtonPrefab;
-    public GameObject clothingButtonParent;
-    public List<int> clothingPrices;
-    public Coin coinManager;
+    public TextMeshProUGUI coinText;
+    public int coins = 100;
+    public Button[] clothButtons;
+    public int[] clothPrices = { 10, 10, 10, 25, 25, 25, 50, 50, 50 };
 
     void Start()
     {
-        GenerateClothingButtons();
+        UpdateCoinText();
+        AssignClothingButtons();
+
     }
 
-    void GenerateClothingButtons()
+    void AssignClothingButtons()
     {
-        for (int i = 0; i < clothingPrices.Count; i++)
+        for (int i = 0; i < clothButtons.Length; i++)
         {
-            GameObject newButton = Instantiate(clothingButtonPrefab, clothingButtonParent.transform);
-            int price = clothingPrices[i];
-
-            newButton.GetComponentInChildren<TextMeshProUGUI>().text = "Clothing " + (i + 1) + " - " + price + " coins";
-
             int index = i;
-            newButton.GetComponent<Button>().onClick.AddListener(() => PurchaseClothing(index));
+            clothButtons[i].onClick.AddListener(() => PurchaseClothing(index));
         }
     }
 
-    void PurchaseClothing(int index)
+    void PurchaseClothing(int clothIndex)
     {
-        int price = clothingPrices[index];
+        int price = clothPrices[clothIndex];
 
-        if (coinManager.coins >= price)
+        if (coins >= price)
         {
-            coinManager.SpendCoins(price);
-            Debug.Log("Purchased clothing item " + (index + 1));
+            coins -= price;
+            UpdateCoinText();
+            Debug.Log("Cloth purchased! Remaining coins: " + coins);
         }
         else
         {
             Debug.Log("Not enough coins!");
         }
+    }
+
+    void UpdateCoinText()
+    {
+        coinText.text = "Coins: " + coins.ToString();
     }
 }
